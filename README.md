@@ -1,8 +1,7 @@
 # Cipher Base
 
-Creator: Akhil Nair <Akhil.Nair@amey.co.uk>
-
-Maintainer: Akhil Nair <Akhil.Nair@amey.co.uk>
+ - Creator: Akhil Nair <Akhil.Nair@amey.co.uk>
+ - Maintainer: Akhil Nair <Akhil.Nair@amey.co.uk>
 
 **WARNING: This is a public repo!**
 
