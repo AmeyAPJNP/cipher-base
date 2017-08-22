@@ -1,0 +1,7 @@
+boto3==1.4.1
+cassandra-driver==3.6.0
+cqlsh==5.0.3
+Flask==0.11.1
+gevent==1.1.2
+pytz==2016.7
+cipherext==1.3
