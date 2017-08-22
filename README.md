@@ -1,9 +1,9 @@
 # Cipher Base
 
- - Creator: Akhil Nair <Akhil.Nair@amey.co.uk>
- - Maintainer: Akhil Nair <Akhil.Nair@amey.co.uk>
-
 **WARNING: This is a public repo!**
+
+ - Creator -  Akhil Nair, <Akhil.Nair@amey.co.uk>
+ - Maintainer -  Akhil Nair, <Akhil.Nair@amey.co.uk>
 
 This is a public repository houses the `Dockerfile` for the `Cipher`, installing only open source requirements.
 
