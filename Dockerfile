@@ -19,5 +19,6 @@ RUN pip install -r requirements.txt
 RUN pip install awscli
 
 # Install R libraries 
-RUN R -e "devtools::install_github('AkhilNairAmey/crassy')"
-RUN R -e "devtools::install_github('AkhilNairAmey/CQLConnect@v2.1.0')"
+RUN install2.r remotes
+RUN R -e "remotes::install_github('AkhilNairAmey/crassy')"
+RUN R -e "remotes::install_github('AkhilNairAmey/CQLConnect@v2.3.0')"
