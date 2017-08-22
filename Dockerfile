@@ -22,3 +22,4 @@ RUN pip install awscli
 RUN install2.r remotes
 RUN R -e "remotes::install_github('AkhilNairAmey/crassy')"
 RUN R -e "remotes::install_github('AkhilNairAmey/CQLConnect@v2.3.0')"
+RUN R -e "remotes::install_github('lbartnik/subprocess@master')"
