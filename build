@@ -1,1 +1,9 @@
+source secrets.sh
+
+docker login -u cipherapjnp -p $P_CIPHERAPJNP
+
 docker build -t cipherapjnp/cipher-base:`cat Version` .
+
+docker push cipherapjnp/cipher-base:`cat Version` 
+
+docker login -u akhilnairamey -p $P_DOCKER
