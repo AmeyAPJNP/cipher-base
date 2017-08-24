@@ -30,11 +30,6 @@ ENV CQLCONNECT_VER 2.3.0
 ENV SUBPROCESS_VER master 
 
 ADD install_github_packages.r /tmp/
+
 RUN Rscript /tmp/install_github_packages.r && rm /tmp/install_github_packages.r
 
-
-# RUN R -e "remotes::install_github('AkhilNairAmey/crassy')"
-
-# RUN R -e "remotes::install_github('AkhilNairAmey/CQLConnect@v2.3.0')"
-
- #RUN R -e "remotes::install_github('lbartnik/subprocess@master')"
