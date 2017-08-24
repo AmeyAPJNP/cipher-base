@@ -1,0 +1,1 @@
+docker build -t cipherapjnp/cipher-base:`cat Version` .
