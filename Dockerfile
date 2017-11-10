@@ -25,7 +25,7 @@ RUN pip install awscli
 
 # Install R libraries 
 ENV CRASSY_VER 1.1.0
-ENV CQLCONNECT_VER 2.7.0
+ENV CQLCONNECT_VER 2.7.3
 ENV SUBPROCESS_VER master 
 
 ADD install_github_packages.r /tmp/
